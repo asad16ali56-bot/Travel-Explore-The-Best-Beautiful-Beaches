@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel — Explore The Best Beautiful Beaches</title>
+<link rel="icon" type="image/png" href="images/favicon__2_.png">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#home" class="logo">
+      <img src="images/favicon__2_.png" alt="Travel logo" class="logo__icon">
+      <span>Travel</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#discover">Discover</a>
+      <a href="#places">Places</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <button class="icon-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero__card">
+      <img src="images/home1.jpg" alt="Aerial view of turquoise sea with sailboat" class="hero__img">
+      <div class="hero__overlay"></div>
+
+      <div class="hero__content">
+        <p class="eyebrow">Discover your place</p>
+        <h1>Explore The Best <span>Beautiful Beaches</span></h1>
+        <a href="#discover" class="btn btn--ghost">Explore</a>
+
+        <div class="hero__socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <button class="hero__mini-card" id="playHero">
+        <img src="images/home2.jpg" alt="Boat sailing on the ocean">
+        <span class="hero__mini-play"><i class="fa-solid fa-play"></i></span>
+        <span class="hero__mini-text">
+          5 best places<br>to visit
+          <em>Share <i class="fa-solid fa-arrow-right"></i></em>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MORE INFORMATION ===== -->
+<section class="info" id="about">
+  <div class="container info__grid">
+    <div class="info__text">
+      <p class="eyebrow eyebrow--dark">More Information</p>
+      <h2>About The Best <br> Beaches</h2>
+      <p class="body-text">
+        You can find the most beautiful and pleasant places at the
+        best prices with special discounts, you choose the place
+        we will guide you all the way to wait, get your place now.
+      </p>
+      <a href="#places" class="btn btn--solid">Reserve a place</a>
+    </div>
+
+    <div class="info__images">
+      <img src="images/about1.jpg" alt="Speedboat leaving a wake across turquoise water" class="info__img info__img--small">
+      <img src="images/about2.jpg" alt="Sailboat anchored above a coral reef" class="info__img info__img--large">
+    </div>
+  </div>
+</section>
+
+<!-- ===== DISCOVER MOST ATTRACTIVE PLACES ===== -->
+<section class="discover" id="discover">
+  <div class="container">
+    <h2 class="section-title">Discover The Most <br> Attractive Places</h2>
+
+    <div class="discover__grid">
+      <article class="place-card">
+        <img src="images/discover1.jpg" alt="Whitehaven Beach aerial view">
+        <div class="place-card__tag">
+          <h3>Whitehaven</h3>
+          <span>32 tours available</span>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <img src="images/discover2.jpg" alt="Bali coastline with boats at dusk">
+        <div class="place-card__tag">
+          <h3>Bali</h3>
+          <span>24 tours available</span>
+        </div>
+      </article>
+
+      <article class="place-card">
+        <img src="images/discover3.jpg" alt="Hawaii harbor town aerial view">
+        <div class="place-card__tag">
+          <h3>Hawaii</h3>
+          <span>15 tours available</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WITH OUR EXPERIENCE (stats) ===== -->
+<section class="experience">
+  <div class="container">
+    <h2 class="section-title center">With Our Experience <br> We Will Serve You</h2>
+
+    <div class="stats">
+      <div class="stat">
+        <h3 data-count="20">0</h3>
+        <span>Destinations</span>
+      </div>
+      <div class="stat">
+        <h3 data-count="75">0</h3>
+        <span>Tour Guides</span>
+      </div>
+      <div class="stat">
+        <h3 data-count="650" data-suffix="+">0</h3>
+        <span>Happy Customers</span>
+      </div>
+    </div>
+
+    <div class="experience__images">
+      <img src="images/experience1.jpg" alt="Boat leaving a wake across the sea" class="exp__img exp__img--front">
+      <img src="images/experience2.jpg" alt="Snorkeler swimming underwater" class="exp__img exp__img--back">
+    </div>
+  </div>
+</section>
+
+<!-- ===== VIDEO TOUR ===== -->
+<section class="video-tour">
+  <div class="container">
+    <h2 class="section-title center">Video Tour</h2>
+    <p class="body-text center">
+      Watch our short movie about the most beautiful and
+      pleasant places to visit for you and your family.
+    </p>
+
+    <div class="video-tour__frame" id="videoFrame">
+      <img src="images/discover4.jpg" alt="Boat anchored near a tropical island cove">
+      <button class="video-tour__play" id="playVideo" aria-label="Play video tour">
+        <i class="fa-solid fa-play"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CHOOSE YOUR PLACE ===== -->
+<section class="choose" id="places">
+  <div class="container">
+    <h2 class="section-title center">Choose Your Place</h2>
+
+    <div class="choose__grid">
+      <article class="choose-card">
+        <img src="images/discover2.jpg" alt="Bali">
+        <div class="choose-card__tag"><h4>Bali</h4><span>$430</span></div>
+      </article>
+      <article class="choose-card">
+        <img src="images/place1.jpg" alt="Whitehaven cove">
+        <div class="choose-card__tag"><h4>Whitehaven</h4><span>$390</span></div>
+      </article>
+      <article class="choose-card">
+        <img src="images/about1.jpg" alt="Santorini coast">
+        <div class="choose-card__tag"><h4>Santorini</h4><span>$520</span></div>
+      </article>
+      <article class="choose-card">
+        <img src="images/experience1.jpg" alt="Phuket bay">
+        <div class="choose-card__tag"><h4>Phuket</h4><span>$310</span></div>
+      </article>
+      <article class="choose-card">
+        <img src="images/home2.jpg" alt="Fiji islands">
+        <div class="choose-card__tag"><h4>Fiji</h4><span>$470</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER ===== -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter__box">
+      <h2>Subscribe Our Newsletter</h2>
+      <p>Subscribe to our newsletter and get 10% discount for your next place, get updates about our latest offers.</p>
+
+      <form class="newsletter__form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required aria-label="Email address">
+        <button type="submit" class="btn btn--solid-light">Subscribe</button>
+      </form>
+      <p class="newsletter__msg" id="newsletterMsg"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="#home" class="logo logo--light">
+        <img src="images/favicon__2_.png" alt="Travel logo" class="logo__icon">
+        <span>Travel</span>
+      </a>
+      <p>Discover the most beautiful and pleasant beaches around
+        the world at the best prices, guided all the way.</p>
+      <div class="footer__socials">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h5>About</h5>
+      <a href="#">About Us</a>
+      <a href="#">Reviews</a>
+      <a href="#">Plan your trip</a>
+      <a href="#">Become a member</a>
+    </div>
+
+    <div class="footer__col">
+      <h5>Company</h5>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+      <a href="#">Partners</a>
+      <a href="#">Newsroom</a>
+    </div>
+
+    <div class="footer__col">
+      <h5>Support</h5>
+      <a href="#">FAQs</a>
+      <a href="#">Support Center</a>
+      <a href="#">Cancel your trip</a>
+      <a href="#">Contact us</a>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>&copy; <span id="year"></span> Travel. All rights reserved.</p>
+    <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  </div>
+</footer>
+
+<!-- ===== VIDEO MODAL ===== -->
+<div class="modal" id="videoModal">
+  <div class="modal__box">
+    <button class="modal__close" id="closeModal" aria-label="Close video"><i class="fa-solid fa-xmark"></i></button>
+    <video id="modalVideo" controls playsinline poster="images/discover4.jpg">
+      <source src="videos/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
